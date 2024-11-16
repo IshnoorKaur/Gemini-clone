@@ -1,9 +1,11 @@
+/* Reset styles for all elements */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* Root container setup */
 #root {
   min-height: 100vh;
   display: flex;
