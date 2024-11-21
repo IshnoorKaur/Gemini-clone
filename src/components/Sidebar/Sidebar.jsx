@@ -1,7 +1,13 @@
-import React from 'react'
-import './Sidebar.css'
-import { assets } from '../../assets/assets'
+// Importing the React library, which is essential for creating React components
+import React from 'react';
 
+// Importing the CSS file for styling the Sidebar component
+import './Sidebar.css';
+
+// Importing assets, such as icons, from the specified path
+import { assets } from '../../assets/assets';
+
+// Defining the Sidebar functional component
 const Sidebar = () => {
     return (
         <div className='sidebar'>
